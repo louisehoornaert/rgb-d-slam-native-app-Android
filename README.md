@@ -1,4 +1,4 @@
-# RGB-D(epth) sensor & Simultaneous Localization and Mapping (SLAM) in combinatie met een native applicatie
+# RGB-D(epth) sensor & Simultaneous Localization and Mapping (SLAM) in combinatie met een native applicatie (Android)
 
 Dit prototype is een onderdeel van de scriptie die werd gemaakt voor de opleiding Toegepaste Informatica, Mobile & Enterprise Development aan de Hogeschool Gent.
 
