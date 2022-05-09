@@ -4,6 +4,6 @@ Dit prototype is een onderdeel van de scriptie die werd gemaakt voor de opleidin
 
 # Demo
 
-![alt text](https://user-images.githubusercontent.com/47556281/167379778-490ec86e-ebbb-426a-ad23-79bb3e2d8f0e.PNG "hologram")
+![alt text](https://user-images.githubusercontent.com/47556281/167381904-989686f0-2355-429f-b1f5-6e15715f3875.png "hologram")
 
-![alt text](https://user-images.githubusercontent.com/47556281/167379794-00fd8894-19f6-4508-a6ad-cb48f161823f.mov "filmpje")
+![alt text](https://user-images.githubusercontent.com/47556281/167381920-0adcee6b-0a4d-4996-b61d-a38ef3714913.mov "filmpje")
