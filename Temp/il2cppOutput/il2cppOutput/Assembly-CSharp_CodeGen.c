@@ -1,0 +1,768 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Depthkit_APIExample::Start()
+extern void Depthkit_APIExample_Start_m6CB14023366209F5CEE5EBA58318D96F16BDBAB4 (void);
+// 0x00000002 System.Void Depthkit_APIExample::OnClipLoadingStart()
+extern void Depthkit_APIExample_OnClipLoadingStart_m8620CC9D1F4D329240E2B4CE4164F73D7DACAD50 (void);
+// 0x00000003 System.Void Depthkit_APIExample::OnClipLoadingFinished()
+extern void Depthkit_APIExample_OnClipLoadingFinished_m3F37B6B27FACB0BDC821B7188A2F14A4AA4DE7DB (void);
+// 0x00000004 System.Void Depthkit_APIExample::OnClipPlaybackPaused()
+extern void Depthkit_APIExample_OnClipPlaybackPaused_m02D229FA062F98F16E4D2A3552F95E9D866F3DBB (void);
+// 0x00000005 System.Void Depthkit_APIExample::OnClipPlaybackStarted()
+extern void Depthkit_APIExample_OnClipPlaybackStarted_m41FDF41014BFAF5A302EF9D414452BF87DE65A96 (void);
+// 0x00000006 System.Void Depthkit_APIExample::OnClipPlaybackStopped()
+extern void Depthkit_APIExample_OnClipPlaybackStopped_m93A7CE632DFB2A379B6F1A6674015B71250B8943 (void);
+// 0x00000007 System.Void Depthkit_APIExample::.ctor()
+extern void Depthkit_APIExample__ctor_mE7FE6A35AFB1B2647224D730D35E87365BD6C5DD (void);
+// 0x00000008 System.String Depthkit.RenderTypeExt::Name(Depthkit.RenderType)
+extern void RenderTypeExt_Name_mA8227E48157429214719FA55B8478656D044D7EB (void);
+// 0x00000009 Depthkit.Version Depthkit.RenderTypeExt::CompatibleVersion(Depthkit.RenderType)
+extern void RenderTypeExt_CompatibleVersion_m2DB473898EA6C60F80533D6E440E4F3191A29968 (void);
+// 0x0000000A Depthkit.Depthkit_ClipPlayer Depthkit.Depthkit_Clip::get_Player()
+extern void Depthkit_Clip_get_Player_mE23BDDC5971DBC66E152E6AFBBEDA58664C5D702 (void);
+// 0x0000000B System.Void Depthkit.Depthkit_Clip::set_Player(Depthkit.Depthkit_ClipPlayer)
+extern void Depthkit_Clip_set_Player_m8E405FB541FBB7DAFF580BC916AF2F33254C302F (void);
+// 0x0000000C Depthkit.Depthkit_PlayerEvents Depthkit.Depthkit_Clip::get_Events()
+extern void Depthkit_Clip_get_Events_mD97D6106668DE4D16C91C5335466A59B4EE444EC (void);
+// 0x0000000D Depthkit.Depthkit_ClipRenderer Depthkit.Depthkit_Clip::get_ClipRenderer()
+extern void Depthkit_Clip_get_ClipRenderer_mA7ABAA345A87BE1FD5AF442ED0751AC9E11E809A (void);
+// 0x0000000E System.Void Depthkit.Depthkit_Clip::set_ClipRenderer(Depthkit.Depthkit_ClipRenderer)
+extern void Depthkit_Clip_set_ClipRenderer_m0BFBD05E09E1B62832301239D5BC116200E52B11 (void);
+// 0x0000000F System.Boolean Depthkit.Depthkit_Clip::get_PlayerSetup()
+extern void Depthkit_Clip_get_PlayerSetup_m00A6E3EF7F9D79B48812B32D5ABC60CF8A2D27A5 (void);
+// 0x00000010 System.Boolean Depthkit.Depthkit_Clip::get_MetaSetup()
+extern void Depthkit_Clip_get_MetaSetup_m95E58C06D97A788AC654B99190123B578CC363B9 (void);
+// 0x00000011 System.Boolean Depthkit.Depthkit_Clip::get_RendererSetup()
+extern void Depthkit_Clip_get_RendererSetup_mB6D59C2A642D4F79AC698BD586451002A2B6B260 (void);
+// 0x00000012 System.Boolean Depthkit.Depthkit_Clip::get_IsSetup()
+extern void Depthkit_Clip_get_IsSetup_mB1D8185A4801170BD31A18D7CF554B43E948650A (void);
+// 0x00000013 System.Void Depthkit.Depthkit_Clip::Start()
+extern void Depthkit_Clip_Start_mFBA9A3C6D94F2809362A4DFA94D0B3F15529C706 (void);
+// 0x00000014 System.Void Depthkit.Depthkit_Clip::Reset()
+extern void Depthkit_Clip_Reset_m1FBE2B92CBCE66177A01990F881473195BE00F5B (void);
+// 0x00000015 System.Void Depthkit.Depthkit_Clip::Setup(Depthkit.AvailablePlayerType,Depthkit.RenderType,UnityEngine.TextAsset)
+extern void Depthkit_Clip_Setup_m94E29AD38D97DE6F5D5A86933F4DC74D1AC28028 (void);
+// 0x00000016 System.Void Depthkit.Depthkit_Clip::Setup(Depthkit.AvailablePlayerType,Depthkit.RenderType,System.String)
+extern void Depthkit_Clip_Setup_m52EA8F081286337CD8595C3F8D897718BC21F614 (void);
+// 0x00000017 System.Void Depthkit.Depthkit_Clip::Setup(Depthkit.AvailablePlayerType,Depthkit.RenderType)
+extern void Depthkit_Clip_Setup_mD64ACCE84153914C2A8C1F3AC0DADB999736725F (void);
+// 0x00000018 System.Void Depthkit.Depthkit_Clip::Update()
+extern void Depthkit_Clip_Update_m5B83D41D47C6CC842A75EA4C2C93EC57F1137568 (void);
+// 0x00000019 System.Void Depthkit.Depthkit_Clip::OnValidate()
+extern void Depthkit_Clip_OnValidate_m2E5AA173E66A78CD5160E25460A3DD95916A44DC (void);
+// 0x0000001A System.Void Depthkit.Depthkit_Clip::ResetPlayer()
+extern void Depthkit_Clip_ResetPlayer_m4E1446DFA345D60C00212128F3A8F9EE4E85C3B6 (void);
+// 0x0000001B System.Void Depthkit.Depthkit_Clip::ValidateRendererVersion()
+extern void Depthkit_Clip_ValidateRendererVersion_mA8F3FAE4677791EE714C6DAE6F51E59B571AD502 (void);
+// 0x0000001C System.Void Depthkit.Depthkit_Clip::RefreshPlayerValues()
+extern void Depthkit_Clip_RefreshPlayerValues_m011F5A06D95C4DEB19CF4E7CB46B5202FFFF0F4C (void);
+// 0x0000001D System.Void Depthkit.Depthkit_Clip::ResetRenderer()
+extern void Depthkit_Clip_ResetRenderer_m1B87C58E16A1C41FEE939518500EFDFD26E4C537 (void);
+// 0x0000001E System.Void Depthkit.Depthkit_Clip::RefreshRendererValues()
+extern void Depthkit_Clip_RefreshRendererValues_m15E7C4C7F3094A982FB239D856B3A67BCDFBA87F (void);
+// 0x0000001F System.Void Depthkit.Depthkit_Clip::RefreshMetaData()
+extern void Depthkit_Clip_RefreshMetaData_mDE88BC1BC3CE6C83BE1A947F1EC63552F81C3542 (void);
+// 0x00000020 System.Void Depthkit.Depthkit_Clip::OnDrawGizmos()
+extern void Depthkit_Clip_OnDrawGizmos_m413466AA7F6DA89DBD7C0B25A92F5DBF00337FAA (void);
+// 0x00000021 System.Void Depthkit.Depthkit_Clip::OnApplicationQuit()
+extern void Depthkit_Clip_OnApplicationQuit_mC647D785F8619CC91F5054FA1C182DCEB74AF865 (void);
+// 0x00000022 System.Void Depthkit.Depthkit_Clip::.ctor()
+extern void Depthkit_Clip__ctor_m78063C2434BF0119443DACAD38A88A36A01627F5 (void);
+// 0x00000023 System.Void Depthkit.Depthkit_Clip::.cctor()
+extern void Depthkit_Clip__cctor_m5D9D0243F80D549287F8A17208659AC56FF6288C (void);
+// 0x00000024 System.Boolean Depthkit.Depthkit_ClipPlayer::get_VideoLoaded()
+extern void Depthkit_ClipPlayer_get_VideoLoaded_m247D2E21959B8D7D27A15F984CC769F1DBF85A8B (void);
+// 0x00000025 System.Void Depthkit.Depthkit_ClipPlayer::set_VideoLoaded(System.Boolean)
+extern void Depthkit_ClipPlayer_set_VideoLoaded_m0A1D4B7193CEE711BFDE701EC437E1F0AF993A26 (void);
+// 0x00000026 Depthkit.Depthkit_PlayerEvents Depthkit.Depthkit_ClipPlayer::get_Events()
+extern void Depthkit_ClipPlayer_get_Events_mFE2989E7719385C2D193EC46F73DAA99BD1A7B7F (void);
+// 0x00000027 System.Void Depthkit.Depthkit_ClipPlayer::set_Events(Depthkit.Depthkit_PlayerEvents)
+extern void Depthkit_ClipPlayer_set_Events_mAF09D18036FE0E8BE1034EB066DEBDE75C8F18A6 (void);
+// 0x00000028 System.Void Depthkit.Depthkit_ClipPlayer::AssignEvents(Depthkit.Depthkit_PlayerEvents)
+extern void Depthkit_ClipPlayer_AssignEvents_mBAD38F70A06E0A157B335B5B0047F9CD411EF11B (void);
+// 0x00000029 System.Void Depthkit.Depthkit_ClipPlayer::CreatePlayer()
+// 0x0000002A System.Boolean Depthkit.Depthkit_ClipPlayer::IsPlayerCreated()
+// 0x0000002B System.Boolean Depthkit.Depthkit_ClipPlayer::IsPlayerSetup()
+// 0x0000002C System.Collections.IEnumerator Depthkit.Depthkit_ClipPlayer::Load()
+// 0x0000002D System.Void Depthkit.Depthkit_ClipPlayer::StartVideoLoad()
+// 0x0000002E System.Collections.IEnumerator Depthkit.Depthkit_ClipPlayer::LoadAndPlay()
+// 0x0000002F System.Void Depthkit.Depthkit_ClipPlayer::SetVideoPath(System.String)
+// 0x00000030 System.String Depthkit.Depthkit_ClipPlayer::GetVideoPath()
+// 0x00000031 System.Void Depthkit.Depthkit_ClipPlayer::Play()
+// 0x00000032 System.Void Depthkit.Depthkit_ClipPlayer::Pause()
+// 0x00000033 System.Void Depthkit.Depthkit_ClipPlayer::Stop()
+// 0x00000034 System.Void Depthkit.Depthkit_ClipPlayer::RemoveComponents()
+// 0x00000035 UnityEngine.Texture Depthkit.Depthkit_ClipPlayer::GetTexture()
+// 0x00000036 System.Boolean Depthkit.Depthkit_ClipPlayer::IsTextureFlipped()
+// 0x00000037 Depthkit.GammaCorrection Depthkit.Depthkit_ClipPlayer::GammaCorrectDepth()
+// 0x00000038 Depthkit.GammaCorrection Depthkit.Depthkit_ClipPlayer::GammaCorrectColor()
+// 0x00000039 Depthkit.AvailablePlayerType Depthkit.Depthkit_ClipPlayer::GetPlayerType()
+// 0x0000003A System.Boolean Depthkit.Depthkit_ClipPlayer::IsPlaying()
+// 0x0000003B System.Double Depthkit.Depthkit_ClipPlayer::GetCurrentTime()
+// 0x0000003C System.Int32 Depthkit.Depthkit_ClipPlayer::GetCurrentFrame()
+// 0x0000003D System.Double Depthkit.Depthkit_ClipPlayer::GetDuration()
+// 0x0000003E System.Void Depthkit.Depthkit_ClipPlayer::.ctor()
+extern void Depthkit_ClipPlayer__ctor_m82017CE6D0FD77C8506A792E6B7067F0DF5AF534 (void);
+// 0x0000003F UnityEngine.Texture Depthkit.Depthkit_ClipRenderer::get_Texture()
+extern void Depthkit_ClipRenderer_get_Texture_m9588E8073A5453C0A93116001AE453596145C7DF (void);
+// 0x00000040 System.Void Depthkit.Depthkit_ClipRenderer::set_Texture(UnityEngine.Texture)
+extern void Depthkit_ClipRenderer_set_Texture_mF072009E14435F0A6A4ECF9CB546A07B475C4817 (void);
+// 0x00000041 Depthkit.Depthkit_ClipRenderer/MeshDensity Depthkit.Depthkit_ClipRenderer::get_Density()
+extern void Depthkit_ClipRenderer_get_Density_mA401E236A49FBAB6B312004CD6B3454DCBDBFC24 (void);
+// 0x00000042 System.Void Depthkit.Depthkit_ClipRenderer::set_Density(Depthkit.Depthkit_ClipRenderer/MeshDensity)
+extern void Depthkit_ClipRenderer_set_Density_m22A1E1C67DF998174BB6AE2D63F827A1F586AEC8 (void);
+// 0x00000043 System.Int32 Depthkit.Depthkit_ClipRenderer::get_MeshScalar()
+extern void Depthkit_ClipRenderer_get_MeshScalar_m5A78D200124D8DCDEA708971D09D6E4F3A955A7E (void);
+// 0x00000044 UnityEngine.Bounds Depthkit.Depthkit_ClipRenderer::get_Bounds()
+extern void Depthkit_ClipRenderer_get_Bounds_mC746406A17898CBE62B9FF5C891E539DC4ACD7F1 (void);
+// 0x00000045 System.Void Depthkit.Depthkit_ClipRenderer::set_Bounds(UnityEngine.Bounds)
+extern void Depthkit_ClipRenderer_set_Bounds_m5E174F9F0DCC7D08EAF633A4863DD49B6CBDD0A4 (void);
+// 0x00000046 System.Boolean Depthkit.Depthkit_ClipRenderer::get_TextureIsFlipped()
+extern void Depthkit_ClipRenderer_get_TextureIsFlipped_m349B251BD58C186A0FAA9C1A40C6A5A33F1A87B9 (void);
+// 0x00000047 System.Void Depthkit.Depthkit_ClipRenderer::set_TextureIsFlipped(System.Boolean)
+extern void Depthkit_ClipRenderer_set_TextureIsFlipped_m50A209BAE7054C319431743FBA594FAC689616FB (void);
+// 0x00000048 Depthkit.GammaCorrection Depthkit.Depthkit_ClipRenderer::get_GammaCorrectDepth()
+extern void Depthkit_ClipRenderer_get_GammaCorrectDepth_m6E2B03594447D0A95955F38FF4C8CBECC52CD748 (void);
+// 0x00000049 System.Void Depthkit.Depthkit_ClipRenderer::set_GammaCorrectDepth(Depthkit.GammaCorrection)
+extern void Depthkit_ClipRenderer_set_GammaCorrectDepth_mE42E200326F8AB36320F3E10B899847BF7387AD3 (void);
+// 0x0000004A Depthkit.GammaCorrection Depthkit.Depthkit_ClipRenderer::get_GammaCorrectColor()
+extern void Depthkit_ClipRenderer_get_GammaCorrectColor_m55CFF35D6C2A901DDEF32036FEDBC9EA5D1ECB21 (void);
+// 0x0000004B System.Void Depthkit.Depthkit_ClipRenderer::set_GammaCorrectColor(Depthkit.GammaCorrection)
+extern void Depthkit_ClipRenderer_set_GammaCorrectColor_m9E0174957171D1682961CA60BE2C5F7CF89431B2 (void);
+// 0x0000004C Depthkit.Depthkit_Metadata Depthkit.Depthkit_ClipRenderer::get_Metadata()
+extern void Depthkit_ClipRenderer_get_Metadata_m612E74E3051B6083146BEB324B493BE0DA1850A1 (void);
+// 0x0000004D System.Void Depthkit.Depthkit_ClipRenderer::set_Metadata(Depthkit.Depthkit_Metadata)
+extern void Depthkit_ClipRenderer_set_Metadata_m182B874DE99F66E4C5A523491A803F3B33AC913E (void);
+// 0x0000004E System.Void Depthkit.Depthkit_ClipRenderer::SetGeometryDirty()
+extern void Depthkit_ClipRenderer_SetGeometryDirty_m20C73BF054EBE35A56E3478029F5E86D513134ED (void);
+// 0x0000004F System.Void Depthkit.Depthkit_ClipRenderer::SetMaterialDirty()
+extern void Depthkit_ClipRenderer_SetMaterialDirty_mEAF53149960BFB6A64EBCE4CC88F74343BF05213 (void);
+// 0x00000050 Depthkit.Version Depthkit.Depthkit_ClipRenderer::GetSDKVersion()
+// 0x00000051 Depthkit.Version Depthkit.Depthkit_ClipRenderer::GetVersion()
+// 0x00000052 Depthkit.RenderType Depthkit.Depthkit_ClipRenderer::GetRenderType()
+// 0x00000053 System.Void Depthkit.Depthkit_ClipRenderer::RemoveComponents()
+// 0x00000054 System.Void Depthkit.Depthkit_ClipRenderer::Draw()
+// 0x00000055 System.Void Depthkit.Depthkit_ClipRenderer::SetMaterialProperties(UnityEngine.Material)
+extern void Depthkit_ClipRenderer_SetMaterialProperties_m5B4D6F26105410253DB864937D557A9B82B0E8AB (void);
+// 0x00000056 System.Void Depthkit.Depthkit_ClipRenderer::GetMeshLattice(UnityEngine.Mesh&)
+extern void Depthkit_ClipRenderer_GetMeshLattice_m8DC485D6CD47037A0545F761421915E56EEE1EE2 (void);
+// 0x00000057 System.Void Depthkit.Depthkit_ClipRenderer::.ctor()
+extern void Depthkit_ClipRenderer__ctor_m717D21984B536092974887C9C691C1A084A8B00C (void);
+// 0x00000058 System.Byte Depthkit.Version::get_major()
+extern void Version_get_major_m756B516F988273AE2B164C042B636D95EB1109CE (void);
+// 0x00000059 System.Void Depthkit.Version::set_major(System.Byte)
+extern void Version_set_major_mBE38F8A38E8959DC94D06C704745F0D04CCF8030 (void);
+// 0x0000005A System.Byte Depthkit.Version::get_minor()
+extern void Version_get_minor_mDBF097419DFB01374A4A00E03EB015FC54FBD406 (void);
+// 0x0000005B System.Void Depthkit.Version::set_minor(System.Byte)
+extern void Version_set_minor_m52F982A4EB226448A7E078B7D746924A58C38A52 (void);
+// 0x0000005C System.Byte Depthkit.Version::get_patch()
+extern void Version_get_patch_m0E93A4BF469BC3DD2832137183033616CC5B0016 (void);
+// 0x0000005D System.Void Depthkit.Version::set_patch(System.Byte)
+extern void Version_set_patch_mEAB41C9453882FA9105E980B529A47FC94C78C7D (void);
+// 0x0000005E System.Void Depthkit.Version::.ctor(System.Byte,System.Byte,System.Byte)
+extern void Version__ctor_m07FB3BF9D5FEB664B5E52F89D5872600D49E19E7 (void);
+// 0x0000005F System.String Depthkit.Version::ToString()
+extern void Version_ToString_m495D7CD31F687F4FE5AAE6C84199E54A091357EC (void);
+// 0x00000060 System.String Depthkit.Version::op_Implicit(Depthkit.Version)
+extern void Version_op_Implicit_mBDC331A52131B9A3756B4BE4F9EA918BCFC116F3 (void);
+// 0x00000061 System.Boolean Depthkit.Version::Equals(System.Object)
+extern void Version_Equals_mD6D649A817D006544C0CF0D89346CBE642066815 (void);
+// 0x00000062 System.Boolean Depthkit.Version::Equals(Depthkit.Version)
+extern void Version_Equals_m5EEA2BE76FDCB1997D1F4BEC19E53B3F04769541 (void);
+// 0x00000063 System.Int32 Depthkit.Version::GetHashCode()
+extern void Version_GetHashCode_mBF326EA3542A8A2B63AF77E2E9D6F4C161C3D3DC (void);
+// 0x00000064 System.Boolean Depthkit.Version::op_Equality(Depthkit.Version,Depthkit.Version)
+extern void Version_op_Equality_mDCBBC578AB95E33ACA1DFB34CB724E1992EC98CE (void);
+// 0x00000065 System.Boolean Depthkit.Version::op_Inequality(Depthkit.Version,Depthkit.Version)
+extern void Version_op_Inequality_m4D6D37F60D3A10A238ED55FF982B95640E176123 (void);
+// 0x00000066 System.Boolean Depthkit.Version::op_LessThan(Depthkit.Version,Depthkit.Version)
+extern void Version_op_LessThan_m50D1E66E54072D9BA83AF10D07F8C2EB93BFC193 (void);
+// 0x00000067 System.Boolean Depthkit.Version::op_GreaterThan(Depthkit.Version,Depthkit.Version)
+extern void Version_op_GreaterThan_mECA3EF67B723D220192D3F5C06C162D70DBCA740 (void);
+// 0x00000068 System.Boolean Depthkit.Version::op_LessThanOrEqual(Depthkit.Version,Depthkit.Version)
+extern void Version_op_LessThanOrEqual_mA53B2F166FB5DF50CA2784A4FE7FCCBE9D26F128 (void);
+// 0x00000069 System.Boolean Depthkit.Version::op_GreaterThanOrEqual(Depthkit.Version,Depthkit.Version)
+extern void Version_op_GreaterThanOrEqual_m0836F2E56BB661E7FAC2F00833DA59D343CC22D8 (void);
+// 0x0000006A System.Void Depthkit.Depthkit_Info::.ctor()
+extern void Depthkit_Info__ctor_m5D3BDD0136E75E1A19FD1E8B67A778F8CF9EB0B9 (void);
+// 0x0000006B System.Void Depthkit.Depthkit_Info::.cctor()
+extern void Depthkit_Info__cctor_mB087A665FE580FDD65167061DDF742DB2FBAE90B (void);
+// 0x0000006C Depthkit.Depthkit_Metadata Depthkit.Depthkit_Metadata::FromSinglePerspective(Depthkit.Depthkit_Metadata/MetadataSinglePerspective)
+extern void Depthkit_Metadata_FromSinglePerspective_mBD813D93D966303294448CAFAB8278B567981F5E (void);
+// 0x0000006D Depthkit.Depthkit_Metadata Depthkit.Depthkit_Metadata::CreateFromJSON(System.String)
+extern void Depthkit_Metadata_CreateFromJSON_m0B4162764501250EA559E4DC71CCCA72D1C9B285 (void);
+// 0x0000006E System.Void Depthkit.Depthkit_Metadata::.ctor()
+extern void Depthkit_Metadata__ctor_m73B75499D05E25994D772D9A12BD2655CB7EE2F2 (void);
+// 0x0000006F System.Void Depthkit.Depthkit_Metadata/MetadataVersion::.ctor()
+extern void MetadataVersion__ctor_m410707792BE12F3030AF065C51FCC5485271A738 (void);
+// 0x00000070 System.Void Depthkit.Depthkit_Metadata/MetadataSinglePerspective::.ctor()
+extern void MetadataSinglePerspective__ctor_mE899E1C30A53F69140C43135597627F4607B0A81 (void);
+// 0x00000071 System.Void Depthkit.Depthkit_Metadata/Perspective::.ctor()
+extern void Perspective__ctor_m8A99BC7EF830737EE2554870969ACF08900EB54E (void);
+// 0x00000072 System.Void Depthkit.DepthkitClipEventHandler::.ctor(System.Object,System.IntPtr)
+extern void DepthkitClipEventHandler__ctor_mFC7665D9C4AD8C95254A1234860FC0D88F261789 (void);
+// 0x00000073 System.Void Depthkit.DepthkitClipEventHandler::Invoke()
+extern void DepthkitClipEventHandler_Invoke_m45EC41D332E64A98962589E8CD2C011C8E401925 (void);
+// 0x00000074 System.IAsyncResult Depthkit.DepthkitClipEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
+extern void DepthkitClipEventHandler_BeginInvoke_m723FBB31D5E6ADDACB0D6CEB7A3FC2A1A83A16D1 (void);
+// 0x00000075 System.Void Depthkit.DepthkitClipEventHandler::EndInvoke(System.IAsyncResult)
+extern void DepthkitClipEventHandler_EndInvoke_mC329D4C197921DEF966391F92832B214BB877C3D (void);
+// 0x00000076 System.Void Depthkit.Depthkit_PlayerEvents::add_PlaybackStarted(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_add_PlaybackStarted_m39C5026A0AEA29EFBDCC1801A7A7467C2DA3A0B7 (void);
+// 0x00000077 System.Void Depthkit.Depthkit_PlayerEvents::remove_PlaybackStarted(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_remove_PlaybackStarted_m469347E992511212AC23575D1F441B679305293E (void);
+// 0x00000078 System.Void Depthkit.Depthkit_PlayerEvents::add_PlaybackPaused(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_add_PlaybackPaused_m1E9EDD3A3583CBC07E43A2D5FA5DC5288E5580A8 (void);
+// 0x00000079 System.Void Depthkit.Depthkit_PlayerEvents::remove_PlaybackPaused(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_remove_PlaybackPaused_mD79559F7AD8775A219A3B166A571164D998B88AB (void);
+// 0x0000007A System.Void Depthkit.Depthkit_PlayerEvents::add_PlaybackStopped(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_add_PlaybackStopped_m2AF1B10E94B4A071F598F56A744889182A40ED10 (void);
+// 0x0000007B System.Void Depthkit.Depthkit_PlayerEvents::remove_PlaybackStopped(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_remove_PlaybackStopped_m124EEC2DFA9368DBADC1B68D1603938CD6579F0D (void);
+// 0x0000007C System.Void Depthkit.Depthkit_PlayerEvents::add_LoadingStarted(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_add_LoadingStarted_m353A1580F3DA47D234531565D564601FA4964B16 (void);
+// 0x0000007D System.Void Depthkit.Depthkit_PlayerEvents::remove_LoadingStarted(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_remove_LoadingStarted_m8A48C2E5A5D026FC390A1ACFB2222235D315A7E6 (void);
+// 0x0000007E System.Void Depthkit.Depthkit_PlayerEvents::add_LoadingFinished(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_add_LoadingFinished_mBCE5F28B6317EC2FCAF74D0F220B1ACEBA0BA545 (void);
+// 0x0000007F System.Void Depthkit.Depthkit_PlayerEvents::remove_LoadingFinished(Depthkit.DepthkitClipEventHandler)
+extern void Depthkit_PlayerEvents_remove_LoadingFinished_m31D843490BE714AD214573A9B738B7235CC7F3F9 (void);
+// 0x00000080 System.Void Depthkit.Depthkit_PlayerEvents::OnClipPlaybackStarted()
+extern void Depthkit_PlayerEvents_OnClipPlaybackStarted_m3A0A3C065398DA21D3C9ABF0ADDE289AF3FA9352 (void);
+// 0x00000081 System.Void Depthkit.Depthkit_PlayerEvents::OnClipPlaybackPaused()
+extern void Depthkit_PlayerEvents_OnClipPlaybackPaused_m58C1BB48812328E0F76919F61A16B32F69E47C57 (void);
+// 0x00000082 System.Void Depthkit.Depthkit_PlayerEvents::OnClipPlaybackStopped()
+extern void Depthkit_PlayerEvents_OnClipPlaybackStopped_m74887F9E018E377DEC8F9D33FFF9339C6DB96765 (void);
+// 0x00000083 System.Void Depthkit.Depthkit_PlayerEvents::OnClipLoadingStarted()
+extern void Depthkit_PlayerEvents_OnClipLoadingStarted_m16A8309A63BAF7E52714B516583F4BFFDFD12CB5 (void);
+// 0x00000084 System.Void Depthkit.Depthkit_PlayerEvents::OnClipLoadingFinished()
+extern void Depthkit_PlayerEvents_OnClipLoadingFinished_m06868752115A39EB6FF8C6E8D604DB55A66DE9C9 (void);
+// 0x00000085 System.Void Depthkit.Depthkit_PlayerEvents::.ctor()
+extern void Depthkit_PlayerEvents__ctor_mCD44AE0EECE263171668DB589AA59E58F3AC6DA4 (void);
+// 0x00000086 UnityEngine.Shader Depthkit.Depthkit_PhotoLook::get_Shader()
+extern void Depthkit_PhotoLook_get_Shader_m0E2EDFF2D2F64D6E90F3E7F156E5B3F515F0DDAD (void);
+// 0x00000087 System.Void Depthkit.Depthkit_PhotoLook::set_Shader(UnityEngine.Shader)
+extern void Depthkit_PhotoLook_set_Shader_mDAAF619CBA7EDF6853E24C33F35093FEA15981CA (void);
+// 0x00000088 Depthkit.RenderType Depthkit.Depthkit_PhotoLook::GetRenderType()
+extern void Depthkit_PhotoLook_GetRenderType_mD1CEB490299F00112CCE0453BCC02D0C2E6ACA57 (void);
+// 0x00000089 System.Void Depthkit.Depthkit_PhotoLook::Start()
+extern void Depthkit_PhotoLook_Start_mD7E76EE59821AB15C508EF78AF117649F8317E56 (void);
+// 0x0000008A System.Void Depthkit.Depthkit_PhotoLook::Update()
+extern void Depthkit_PhotoLook_Update_mC8188F079F8A8AD1DEE5332BB7453971B613B708 (void);
+// 0x0000008B Depthkit.Version Depthkit.Depthkit_PhotoLook::GetSDKVersion()
+extern void Depthkit_PhotoLook_GetSDKVersion_m3C6558DA4782B9790CD996F01DB7512E25DC8C04 (void);
+// 0x0000008C Depthkit.Version Depthkit.Depthkit_PhotoLook::GetVersion()
+extern void Depthkit_PhotoLook_GetVersion_mE4E7711A09E1B999697A3FE1D4DD34C2BC686F7D (void);
+// 0x0000008D System.Void Depthkit.Depthkit_PhotoLook::Draw()
+extern void Depthkit_PhotoLook_Draw_mCD67272FB0BC492A83B2092CD6FFE447D6800725 (void);
+// 0x0000008E System.Void Depthkit.Depthkit_PhotoLook::BuildMesh()
+extern void Depthkit_PhotoLook_BuildMesh_m5EC9C4D9BBD30F31A39397BC0E35277610150FA6 (void);
+// 0x0000008F System.Void Depthkit.Depthkit_PhotoLook::BuildMaterial()
+extern void Depthkit_PhotoLook_BuildMaterial_m04068576219BE5B6247EA2A529A740E9814CC117 (void);
+// 0x00000090 System.Void Depthkit.Depthkit_PhotoLook::RemoveComponents()
+extern void Depthkit_PhotoLook_RemoveComponents_mDE462F323795D989F50749293AC5A74058615625 (void);
+// 0x00000091 System.Void Depthkit.Depthkit_PhotoLook::.ctor()
+extern void Depthkit_PhotoLook__ctor_mF61AF974613488FB4885B4F1B72FBDE5A446A409 (void);
+// 0x00000092 System.Void Depthkit.Depthkit_AVProVideoPlayer::.ctor()
+extern void Depthkit_AVProVideoPlayer__ctor_mA1E5B4C1BABA767BA19BE1F0D87AD9C018C1C939 (void);
+// 0x00000093 System.Void Depthkit.Depthkit_UnityVideoPlayer::CreatePlayer()
+extern void Depthkit_UnityVideoPlayer_CreatePlayer_m5AF52CF83C2DFF005674F3C3221CF4BE530CB130 (void);
+// 0x00000094 System.Boolean Depthkit.Depthkit_UnityVideoPlayer::IsPlayerCreated()
+extern void Depthkit_UnityVideoPlayer_IsPlayerCreated_mDC064ABF7F49512340214FD7716D584CF74749CA (void);
+// 0x00000095 System.Boolean Depthkit.Depthkit_UnityVideoPlayer::IsPlayerSetup()
+extern void Depthkit_UnityVideoPlayer_IsPlayerSetup_m72F8006B03395B2F5EEBEC76CAA3F7ED52768F33 (void);
+// 0x00000096 System.Void Depthkit.Depthkit_UnityVideoPlayer::SetVideoPath(System.String)
+extern void Depthkit_UnityVideoPlayer_SetVideoPath_mD528CE8A4B2835FEFA710C7608D88F04F6EC70BF (void);
+// 0x00000097 System.String Depthkit.Depthkit_UnityVideoPlayer::GetVideoPath()
+extern void Depthkit_UnityVideoPlayer_GetVideoPath_mC3227D4ED38F11AA35E2680D10986186DAA22A1F (void);
+// 0x00000098 System.Void Depthkit.Depthkit_UnityVideoPlayer::StartVideoLoad()
+extern void Depthkit_UnityVideoPlayer_StartVideoLoad_mFB3DE1D4C49D8F1A86014834CAC127D0B0A8B01B (void);
+// 0x00000099 System.Collections.IEnumerator Depthkit.Depthkit_UnityVideoPlayer::Load()
+extern void Depthkit_UnityVideoPlayer_Load_mE76D9CA291861835377C4AC18AF9646AD1179A59 (void);
+// 0x0000009A System.Void Depthkit.Depthkit_UnityVideoPlayer::OnVideoLoadingComplete(UnityEngine.Video.VideoPlayer)
+extern void Depthkit_UnityVideoPlayer_OnVideoLoadingComplete_mEAF06A436A6AFC3561113FF4247C23346889636C (void);
+// 0x0000009B System.Collections.IEnumerator Depthkit.Depthkit_UnityVideoPlayer::LoadAndPlay()
+extern void Depthkit_UnityVideoPlayer_LoadAndPlay_m5785338DD1496C198B1199ED951E6386963E2762 (void);
+// 0x0000009C System.Void Depthkit.Depthkit_UnityVideoPlayer::Play()
+extern void Depthkit_UnityVideoPlayer_Play_mD93FB2AFB2298C3047DA6EBBFF96BAD4CAE5F182 (void);
+// 0x0000009D System.Void Depthkit.Depthkit_UnityVideoPlayer::Pause()
+extern void Depthkit_UnityVideoPlayer_Pause_m498D4927DEF98A5B83FD17549E70F2037AB5CA27 (void);
+// 0x0000009E System.Void Depthkit.Depthkit_UnityVideoPlayer::Stop()
+extern void Depthkit_UnityVideoPlayer_Stop_mDCBAE60CCC93E447DE519D636E82360B60C22CED (void);
+// 0x0000009F System.Int32 Depthkit.Depthkit_UnityVideoPlayer::GetCurrentFrame()
+extern void Depthkit_UnityVideoPlayer_GetCurrentFrame_m3F7583AD3E8D2E4635D91BF4B19BAB9BB451F410 (void);
+// 0x000000A0 System.Double Depthkit.Depthkit_UnityVideoPlayer::GetCurrentTime()
+extern void Depthkit_UnityVideoPlayer_GetCurrentTime_m5BB4D530B1B99E62A5C3582A26630DB42077C29A (void);
+// 0x000000A1 System.Double Depthkit.Depthkit_UnityVideoPlayer::GetDuration()
+extern void Depthkit_UnityVideoPlayer_GetDuration_m1158B0418D12EAF2714A7105EAA370B30C6FF713 (void);
+// 0x000000A2 UnityEngine.Texture Depthkit.Depthkit_UnityVideoPlayer::GetTexture()
+extern void Depthkit_UnityVideoPlayer_GetTexture_m3D4458793BA0B447F0F47F8D161793E599F28374 (void);
+// 0x000000A3 System.Boolean Depthkit.Depthkit_UnityVideoPlayer::IsTextureFlipped()
+extern void Depthkit_UnityVideoPlayer_IsTextureFlipped_m69142C6F456C0B54243A9447E131165E3682E55C (void);
+// 0x000000A4 Depthkit.GammaCorrection Depthkit.Depthkit_UnityVideoPlayer::GammaCorrectDepth()
+extern void Depthkit_UnityVideoPlayer_GammaCorrectDepth_mBD0E52AF68FF96A546293158A66EB3A8AB7A7056 (void);
+// 0x000000A5 Depthkit.GammaCorrection Depthkit.Depthkit_UnityVideoPlayer::GammaCorrectColor()
+extern void Depthkit_UnityVideoPlayer_GammaCorrectColor_m552ED65C91EFEB7DA202077B91E995B33D82FCA1 (void);
+// 0x000000A6 System.Boolean Depthkit.Depthkit_UnityVideoPlayer::IsPlaying()
+extern void Depthkit_UnityVideoPlayer_IsPlaying_m09CC70A0043AFF05C1BFEAC6131A5B5FB3F38D8A (void);
+// 0x000000A7 System.Void Depthkit.Depthkit_UnityVideoPlayer::RemoveComponents()
+extern void Depthkit_UnityVideoPlayer_RemoveComponents_mC23BA80A5181F9B53367AD101DEF915CB67F5E00 (void);
+// 0x000000A8 Depthkit.AvailablePlayerType Depthkit.Depthkit_UnityVideoPlayer::GetPlayerType()
+extern void Depthkit_UnityVideoPlayer_GetPlayerType_mC9576366C18860320478E34F65BE6AA2DAE33975 (void);
+// 0x000000A9 UnityEngine.Video.VideoPlayer Depthkit.Depthkit_UnityVideoPlayer::GetPlayerBackend()
+extern void Depthkit_UnityVideoPlayer_GetPlayerBackend_m636D7E526AD8E8FD4101EC577B2830E475484E76 (void);
+// 0x000000AA System.Void Depthkit.Depthkit_UnityVideoPlayer::.ctor()
+extern void Depthkit_UnityVideoPlayer__ctor_mDF11BCE66B08A52F1FE624706BCC681AA0FE9FAC (void);
+// 0x000000AB System.Void Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::.ctor(System.Int32)
+extern void U3CLoadU3Ed__8__ctor_mBECDECCCEF6703CD96F19763AE81110CBAD8158F (void);
+// 0x000000AC System.Void Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::System.IDisposable.Dispose()
+extern void U3CLoadU3Ed__8_System_IDisposable_Dispose_mF7CE1BEDF8EEE79E214E5EEC4439D66FC1163790 (void);
+// 0x000000AD System.Boolean Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::MoveNext()
+extern void U3CLoadU3Ed__8_MoveNext_m6D965AC74AD22B05C041B8549740B28D9E5AE7E5 (void);
+// 0x000000AE System.Object Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEAE5696F3920D055D49B117678F2A8106A81DBDB (void);
+// 0x000000AF System.Void Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CLoadU3Ed__8_System_Collections_IEnumerator_Reset_m7869530F823E8CA025254B8C82F705F7BB62A103 (void);
+// 0x000000B0 System.Object Depthkit.Depthkit_UnityVideoPlayer/<Load>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadU3Ed__8_System_Collections_IEnumerator_get_Current_mDA4C3C331416F15DB3F0AC2CDDD3019BC701404B (void);
+// 0x000000B1 System.Void Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::.ctor(System.Int32)
+extern void U3CLoadAndPlayU3Ed__10__ctor_m10D6056757D3ED553784F314E278B74DC86CAE6A (void);
+// 0x000000B2 System.Void Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::System.IDisposable.Dispose()
+extern void U3CLoadAndPlayU3Ed__10_System_IDisposable_Dispose_mEF8296EEC7B0B472AF3BFF8C7A2C456E8EFB99E5 (void);
+// 0x000000B3 System.Boolean Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::MoveNext()
+extern void U3CLoadAndPlayU3Ed__10_MoveNext_m3A69474A4B20E403E8E87FB6426A72BE3AE34882 (void);
+// 0x000000B4 System.Object Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadAndPlayU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCFE8EA8AD9B32CDF8351323BB05FCA8501D03C28 (void);
+// 0x000000B5 System.Void Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CLoadAndPlayU3Ed__10_System_Collections_IEnumerator_Reset_m8BF70430ACA4985F54C43A0389759227CBFCFE7C (void);
+// 0x000000B6 System.Object Depthkit.Depthkit_UnityVideoPlayer/<LoadAndPlay>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadAndPlayU3Ed__10_System_Collections_IEnumerator_get_Current_m211BAA58DDCE8CCE1E49BFD0BC3BDF2A120F36B6 (void);
+static Il2CppMethodPointer s_methodPointers[182] = 
+{
+	Depthkit_APIExample_Start_m6CB14023366209F5CEE5EBA58318D96F16BDBAB4,
+	Depthkit_APIExample_OnClipLoadingStart_m8620CC9D1F4D329240E2B4CE4164F73D7DACAD50,
+	Depthkit_APIExample_OnClipLoadingFinished_m3F37B6B27FACB0BDC821B7188A2F14A4AA4DE7DB,
+	Depthkit_APIExample_OnClipPlaybackPaused_m02D229FA062F98F16E4D2A3552F95E9D866F3DBB,
+	Depthkit_APIExample_OnClipPlaybackStarted_m41FDF41014BFAF5A302EF9D414452BF87DE65A96,
+	Depthkit_APIExample_OnClipPlaybackStopped_m93A7CE632DFB2A379B6F1A6674015B71250B8943,
+	Depthkit_APIExample__ctor_mE7FE6A35AFB1B2647224D730D35E87365BD6C5DD,
+	RenderTypeExt_Name_mA8227E48157429214719FA55B8478656D044D7EB,
+	RenderTypeExt_CompatibleVersion_m2DB473898EA6C60F80533D6E440E4F3191A29968,
+	Depthkit_Clip_get_Player_mE23BDDC5971DBC66E152E6AFBBEDA58664C5D702,
+	Depthkit_Clip_set_Player_m8E405FB541FBB7DAFF580BC916AF2F33254C302F,
+	Depthkit_Clip_get_Events_mD97D6106668DE4D16C91C5335466A59B4EE444EC,
+	Depthkit_Clip_get_ClipRenderer_mA7ABAA345A87BE1FD5AF442ED0751AC9E11E809A,
+	Depthkit_Clip_set_ClipRenderer_m0BFBD05E09E1B62832301239D5BC116200E52B11,
+	Depthkit_Clip_get_PlayerSetup_m00A6E3EF7F9D79B48812B32D5ABC60CF8A2D27A5,
+	Depthkit_Clip_get_MetaSetup_m95E58C06D97A788AC654B99190123B578CC363B9,
+	Depthkit_Clip_get_RendererSetup_mB6D59C2A642D4F79AC698BD586451002A2B6B260,
+	Depthkit_Clip_get_IsSetup_mB1D8185A4801170BD31A18D7CF554B43E948650A,
+	Depthkit_Clip_Start_mFBA9A3C6D94F2809362A4DFA94D0B3F15529C706,
+	Depthkit_Clip_Reset_m1FBE2B92CBCE66177A01990F881473195BE00F5B,
+	Depthkit_Clip_Setup_m94E29AD38D97DE6F5D5A86933F4DC74D1AC28028,
+	Depthkit_Clip_Setup_m52EA8F081286337CD8595C3F8D897718BC21F614,
+	Depthkit_Clip_Setup_mD64ACCE84153914C2A8C1F3AC0DADB999736725F,
+	Depthkit_Clip_Update_m5B83D41D47C6CC842A75EA4C2C93EC57F1137568,
+	Depthkit_Clip_OnValidate_m2E5AA173E66A78CD5160E25460A3DD95916A44DC,
+	Depthkit_Clip_ResetPlayer_m4E1446DFA345D60C00212128F3A8F9EE4E85C3B6,
+	Depthkit_Clip_ValidateRendererVersion_mA8F3FAE4677791EE714C6DAE6F51E59B571AD502,
+	Depthkit_Clip_RefreshPlayerValues_m011F5A06D95C4DEB19CF4E7CB46B5202FFFF0F4C,
+	Depthkit_Clip_ResetRenderer_m1B87C58E16A1C41FEE939518500EFDFD26E4C537,
+	Depthkit_Clip_RefreshRendererValues_m15E7C4C7F3094A982FB239D856B3A67BCDFBA87F,
+	Depthkit_Clip_RefreshMetaData_mDE88BC1BC3CE6C83BE1A947F1EC63552F81C3542,
+	Depthkit_Clip_OnDrawGizmos_m413466AA7F6DA89DBD7C0B25A92F5DBF00337FAA,
+	Depthkit_Clip_OnApplicationQuit_mC647D785F8619CC91F5054FA1C182DCEB74AF865,
+	Depthkit_Clip__ctor_m78063C2434BF0119443DACAD38A88A36A01627F5,
+	Depthkit_Clip__cctor_m5D9D0243F80D549287F8A17208659AC56FF6288C,
+	Depthkit_ClipPlayer_get_VideoLoaded_m247D2E21959B8D7D27A15F984CC769F1DBF85A8B,
+	Depthkit_ClipPlayer_set_VideoLoaded_m0A1D4B7193CEE711BFDE701EC437E1F0AF993A26,
+	Depthkit_ClipPlayer_get_Events_mFE2989E7719385C2D193EC46F73DAA99BD1A7B7F,
+	Depthkit_ClipPlayer_set_Events_mAF09D18036FE0E8BE1034EB066DEBDE75C8F18A6,
+	Depthkit_ClipPlayer_AssignEvents_mBAD38F70A06E0A157B335B5B0047F9CD411EF11B,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	Depthkit_ClipPlayer__ctor_m82017CE6D0FD77C8506A792E6B7067F0DF5AF534,
+	Depthkit_ClipRenderer_get_Texture_m9588E8073A5453C0A93116001AE453596145C7DF,
+	Depthkit_ClipRenderer_set_Texture_mF072009E14435F0A6A4ECF9CB546A07B475C4817,
+	Depthkit_ClipRenderer_get_Density_mA401E236A49FBAB6B312004CD6B3454DCBDBFC24,
+	Depthkit_ClipRenderer_set_Density_m22A1E1C67DF998174BB6AE2D63F827A1F586AEC8,
+	Depthkit_ClipRenderer_get_MeshScalar_m5A78D200124D8DCDEA708971D09D6E4F3A955A7E,
+	Depthkit_ClipRenderer_get_Bounds_mC746406A17898CBE62B9FF5C891E539DC4ACD7F1,
+	Depthkit_ClipRenderer_set_Bounds_m5E174F9F0DCC7D08EAF633A4863DD49B6CBDD0A4,
+	Depthkit_ClipRenderer_get_TextureIsFlipped_m349B251BD58C186A0FAA9C1A40C6A5A33F1A87B9,
+	Depthkit_ClipRenderer_set_TextureIsFlipped_m50A209BAE7054C319431743FBA594FAC689616FB,
+	Depthkit_ClipRenderer_get_GammaCorrectDepth_m6E2B03594447D0A95955F38FF4C8CBECC52CD748,
+	Depthkit_ClipRenderer_set_GammaCorrectDepth_mE42E200326F8AB36320F3E10B899847BF7387AD3,
+	Depthkit_ClipRenderer_get_GammaCorrectColor_m55CFF35D6C2A901DDEF32036FEDBC9EA5D1ECB21,
+	Depthkit_ClipRenderer_set_GammaCorrectColor_m9E0174957171D1682961CA60BE2C5F7CF89431B2,
+	Depthkit_ClipRenderer_get_Metadata_m612E74E3051B6083146BEB324B493BE0DA1850A1,
+	Depthkit_ClipRenderer_set_Metadata_m182B874DE99F66E4C5A523491A803F3B33AC913E,
+	Depthkit_ClipRenderer_SetGeometryDirty_m20C73BF054EBE35A56E3478029F5E86D513134ED,
+	Depthkit_ClipRenderer_SetMaterialDirty_mEAF53149960BFB6A64EBCE4CC88F74343BF05213,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	Depthkit_ClipRenderer_SetMaterialProperties_m5B4D6F26105410253DB864937D557A9B82B0E8AB,
+	Depthkit_ClipRenderer_GetMeshLattice_m8DC485D6CD47037A0545F761421915E56EEE1EE2,
+	Depthkit_ClipRenderer__ctor_m717D21984B536092974887C9C691C1A084A8B00C,
+	Version_get_major_m756B516F988273AE2B164C042B636D95EB1109CE,
+	Version_set_major_mBE38F8A38E8959DC94D06C704745F0D04CCF8030,
+	Version_get_minor_mDBF097419DFB01374A4A00E03EB015FC54FBD406,
+	Version_set_minor_m52F982A4EB226448A7E078B7D746924A58C38A52,
+	Version_get_patch_m0E93A4BF469BC3DD2832137183033616CC5B0016,
+	Version_set_patch_mEAB41C9453882FA9105E980B529A47FC94C78C7D,
+	Version__ctor_m07FB3BF9D5FEB664B5E52F89D5872600D49E19E7,
+	Version_ToString_m495D7CD31F687F4FE5AAE6C84199E54A091357EC,
+	Version_op_Implicit_mBDC331A52131B9A3756B4BE4F9EA918BCFC116F3,
+	Version_Equals_mD6D649A817D006544C0CF0D89346CBE642066815,
+	Version_Equals_m5EEA2BE76FDCB1997D1F4BEC19E53B3F04769541,
+	Version_GetHashCode_mBF326EA3542A8A2B63AF77E2E9D6F4C161C3D3DC,
+	Version_op_Equality_mDCBBC578AB95E33ACA1DFB34CB724E1992EC98CE,
+	Version_op_Inequality_m4D6D37F60D3A10A238ED55FF982B95640E176123,
+	Version_op_LessThan_m50D1E66E54072D9BA83AF10D07F8C2EB93BFC193,
+	Version_op_GreaterThan_mECA3EF67B723D220192D3F5C06C162D70DBCA740,
+	Version_op_LessThanOrEqual_mA53B2F166FB5DF50CA2784A4FE7FCCBE9D26F128,
+	Version_op_GreaterThanOrEqual_m0836F2E56BB661E7FAC2F00833DA59D343CC22D8,
+	Depthkit_Info__ctor_m5D3BDD0136E75E1A19FD1E8B67A778F8CF9EB0B9,
+	Depthkit_Info__cctor_mB087A665FE580FDD65167061DDF742DB2FBAE90B,
+	Depthkit_Metadata_FromSinglePerspective_mBD813D93D966303294448CAFAB8278B567981F5E,
+	Depthkit_Metadata_CreateFromJSON_m0B4162764501250EA559E4DC71CCCA72D1C9B285,
+	Depthkit_Metadata__ctor_m73B75499D05E25994D772D9A12BD2655CB7EE2F2,
+	MetadataVersion__ctor_m410707792BE12F3030AF065C51FCC5485271A738,
+	MetadataSinglePerspective__ctor_mE899E1C30A53F69140C43135597627F4607B0A81,
+	Perspective__ctor_m8A99BC7EF830737EE2554870969ACF08900EB54E,
+	DepthkitClipEventHandler__ctor_mFC7665D9C4AD8C95254A1234860FC0D88F261789,
+	DepthkitClipEventHandler_Invoke_m45EC41D332E64A98962589E8CD2C011C8E401925,
+	DepthkitClipEventHandler_BeginInvoke_m723FBB31D5E6ADDACB0D6CEB7A3FC2A1A83A16D1,
+	DepthkitClipEventHandler_EndInvoke_mC329D4C197921DEF966391F92832B214BB877C3D,
+	Depthkit_PlayerEvents_add_PlaybackStarted_m39C5026A0AEA29EFBDCC1801A7A7467C2DA3A0B7,
+	Depthkit_PlayerEvents_remove_PlaybackStarted_m469347E992511212AC23575D1F441B679305293E,
+	Depthkit_PlayerEvents_add_PlaybackPaused_m1E9EDD3A3583CBC07E43A2D5FA5DC5288E5580A8,
+	Depthkit_PlayerEvents_remove_PlaybackPaused_mD79559F7AD8775A219A3B166A571164D998B88AB,
+	Depthkit_PlayerEvents_add_PlaybackStopped_m2AF1B10E94B4A071F598F56A744889182A40ED10,
+	Depthkit_PlayerEvents_remove_PlaybackStopped_m124EEC2DFA9368DBADC1B68D1603938CD6579F0D,
+	Depthkit_PlayerEvents_add_LoadingStarted_m353A1580F3DA47D234531565D564601FA4964B16,
+	Depthkit_PlayerEvents_remove_LoadingStarted_m8A48C2E5A5D026FC390A1ACFB2222235D315A7E6,
+	Depthkit_PlayerEvents_add_LoadingFinished_mBCE5F28B6317EC2FCAF74D0F220B1ACEBA0BA545,
+	Depthkit_PlayerEvents_remove_LoadingFinished_m31D843490BE714AD214573A9B738B7235CC7F3F9,
+	Depthkit_PlayerEvents_OnClipPlaybackStarted_m3A0A3C065398DA21D3C9ABF0ADDE289AF3FA9352,
+	Depthkit_PlayerEvents_OnClipPlaybackPaused_m58C1BB48812328E0F76919F61A16B32F69E47C57,
+	Depthkit_PlayerEvents_OnClipPlaybackStopped_m74887F9E018E377DEC8F9D33FFF9339C6DB96765,
+	Depthkit_PlayerEvents_OnClipLoadingStarted_m16A8309A63BAF7E52714B516583F4BFFDFD12CB5,
+	Depthkit_PlayerEvents_OnClipLoadingFinished_m06868752115A39EB6FF8C6E8D604DB55A66DE9C9,
+	Depthkit_PlayerEvents__ctor_mCD44AE0EECE263171668DB589AA59E58F3AC6DA4,
+	Depthkit_PhotoLook_get_Shader_m0E2EDFF2D2F64D6E90F3E7F156E5B3F515F0DDAD,
+	Depthkit_PhotoLook_set_Shader_mDAAF619CBA7EDF6853E24C33F35093FEA15981CA,
+	Depthkit_PhotoLook_GetRenderType_mD1CEB490299F00112CCE0453BCC02D0C2E6ACA57,
+	Depthkit_PhotoLook_Start_mD7E76EE59821AB15C508EF78AF117649F8317E56,
+	Depthkit_PhotoLook_Update_mC8188F079F8A8AD1DEE5332BB7453971B613B708,
+	Depthkit_PhotoLook_GetSDKVersion_m3C6558DA4782B9790CD996F01DB7512E25DC8C04,
+	Depthkit_PhotoLook_GetVersion_mE4E7711A09E1B999697A3FE1D4DD34C2BC686F7D,
+	Depthkit_PhotoLook_Draw_mCD67272FB0BC492A83B2092CD6FFE447D6800725,
+	Depthkit_PhotoLook_BuildMesh_m5EC9C4D9BBD30F31A39397BC0E35277610150FA6,
+	Depthkit_PhotoLook_BuildMaterial_m04068576219BE5B6247EA2A529A740E9814CC117,
+	Depthkit_PhotoLook_RemoveComponents_mDE462F323795D989F50749293AC5A74058615625,
+	Depthkit_PhotoLook__ctor_mF61AF974613488FB4885B4F1B72FBDE5A446A409,
+	Depthkit_AVProVideoPlayer__ctor_mA1E5B4C1BABA767BA19BE1F0D87AD9C018C1C939,
+	Depthkit_UnityVideoPlayer_CreatePlayer_m5AF52CF83C2DFF005674F3C3221CF4BE530CB130,
+	Depthkit_UnityVideoPlayer_IsPlayerCreated_mDC064ABF7F49512340214FD7716D584CF74749CA,
+	Depthkit_UnityVideoPlayer_IsPlayerSetup_m72F8006B03395B2F5EEBEC76CAA3F7ED52768F33,
+	Depthkit_UnityVideoPlayer_SetVideoPath_mD528CE8A4B2835FEFA710C7608D88F04F6EC70BF,
+	Depthkit_UnityVideoPlayer_GetVideoPath_mC3227D4ED38F11AA35E2680D10986186DAA22A1F,
+	Depthkit_UnityVideoPlayer_StartVideoLoad_mFB3DE1D4C49D8F1A86014834CAC127D0B0A8B01B,
+	Depthkit_UnityVideoPlayer_Load_mE76D9CA291861835377C4AC18AF9646AD1179A59,
+	Depthkit_UnityVideoPlayer_OnVideoLoadingComplete_mEAF06A436A6AFC3561113FF4247C23346889636C,
+	Depthkit_UnityVideoPlayer_LoadAndPlay_m5785338DD1496C198B1199ED951E6386963E2762,
+	Depthkit_UnityVideoPlayer_Play_mD93FB2AFB2298C3047DA6EBBFF96BAD4CAE5F182,
+	Depthkit_UnityVideoPlayer_Pause_m498D4927DEF98A5B83FD17549E70F2037AB5CA27,
+	Depthkit_UnityVideoPlayer_Stop_mDCBAE60CCC93E447DE519D636E82360B60C22CED,
+	Depthkit_UnityVideoPlayer_GetCurrentFrame_m3F7583AD3E8D2E4635D91BF4B19BAB9BB451F410,
+	Depthkit_UnityVideoPlayer_GetCurrentTime_m5BB4D530B1B99E62A5C3582A26630DB42077C29A,
+	Depthkit_UnityVideoPlayer_GetDuration_m1158B0418D12EAF2714A7105EAA370B30C6FF713,
+	Depthkit_UnityVideoPlayer_GetTexture_m3D4458793BA0B447F0F47F8D161793E599F28374,
+	Depthkit_UnityVideoPlayer_IsTextureFlipped_m69142C6F456C0B54243A9447E131165E3682E55C,
+	Depthkit_UnityVideoPlayer_GammaCorrectDepth_mBD0E52AF68FF96A546293158A66EB3A8AB7A7056,
+	Depthkit_UnityVideoPlayer_GammaCorrectColor_m552ED65C91EFEB7DA202077B91E995B33D82FCA1,
+	Depthkit_UnityVideoPlayer_IsPlaying_m09CC70A0043AFF05C1BFEAC6131A5B5FB3F38D8A,
+	Depthkit_UnityVideoPlayer_RemoveComponents_mC23BA80A5181F9B53367AD101DEF915CB67F5E00,
+	Depthkit_UnityVideoPlayer_GetPlayerType_mC9576366C18860320478E34F65BE6AA2DAE33975,
+	Depthkit_UnityVideoPlayer_GetPlayerBackend_m636D7E526AD8E8FD4101EC577B2830E475484E76,
+	Depthkit_UnityVideoPlayer__ctor_mDF11BCE66B08A52F1FE624706BCC681AA0FE9FAC,
+	U3CLoadU3Ed__8__ctor_mBECDECCCEF6703CD96F19763AE81110CBAD8158F,
+	U3CLoadU3Ed__8_System_IDisposable_Dispose_mF7CE1BEDF8EEE79E214E5EEC4439D66FC1163790,
+	U3CLoadU3Ed__8_MoveNext_m6D965AC74AD22B05C041B8549740B28D9E5AE7E5,
+	U3CLoadU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEAE5696F3920D055D49B117678F2A8106A81DBDB,
+	U3CLoadU3Ed__8_System_Collections_IEnumerator_Reset_m7869530F823E8CA025254B8C82F705F7BB62A103,
+	U3CLoadU3Ed__8_System_Collections_IEnumerator_get_Current_mDA4C3C331416F15DB3F0AC2CDDD3019BC701404B,
+	U3CLoadAndPlayU3Ed__10__ctor_m10D6056757D3ED553784F314E278B74DC86CAE6A,
+	U3CLoadAndPlayU3Ed__10_System_IDisposable_Dispose_mEF8296EEC7B0B472AF3BFF8C7A2C456E8EFB99E5,
+	U3CLoadAndPlayU3Ed__10_MoveNext_m3A69474A4B20E403E8E87FB6426A72BE3AE34882,
+	U3CLoadAndPlayU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCFE8EA8AD9B32CDF8351323BB05FCA8501D03C28,
+	U3CLoadAndPlayU3Ed__10_System_Collections_IEnumerator_Reset_m8BF70430ACA4985F54C43A0389759227CBFCFE7C,
+	U3CLoadAndPlayU3Ed__10_System_Collections_IEnumerator_get_Current_m211BAA58DDCE8CCE1E49BFD0BC3BDF2A120F36B6,
+};
+extern void Version_get_major_m756B516F988273AE2B164C042B636D95EB1109CE_AdjustorThunk (void);
+extern void Version_set_major_mBE38F8A38E8959DC94D06C704745F0D04CCF8030_AdjustorThunk (void);
+extern void Version_get_minor_mDBF097419DFB01374A4A00E03EB015FC54FBD406_AdjustorThunk (void);
+extern void Version_set_minor_m52F982A4EB226448A7E078B7D746924A58C38A52_AdjustorThunk (void);
+extern void Version_get_patch_m0E93A4BF469BC3DD2832137183033616CC5B0016_AdjustorThunk (void);
+extern void Version_set_patch_mEAB41C9453882FA9105E980B529A47FC94C78C7D_AdjustorThunk (void);
+extern void Version__ctor_m07FB3BF9D5FEB664B5E52F89D5872600D49E19E7_AdjustorThunk (void);
+extern void Version_ToString_m495D7CD31F687F4FE5AAE6C84199E54A091357EC_AdjustorThunk (void);
+extern void Version_Equals_mD6D649A817D006544C0CF0D89346CBE642066815_AdjustorThunk (void);
+extern void Version_Equals_m5EEA2BE76FDCB1997D1F4BEC19E53B3F04769541_AdjustorThunk (void);
+extern void Version_GetHashCode_mBF326EA3542A8A2B63AF77E2E9D6F4C161C3D3DC_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[11] = 
+{
+	{ 0x06000058, Version_get_major_m756B516F988273AE2B164C042B636D95EB1109CE_AdjustorThunk },
+	{ 0x06000059, Version_set_major_mBE38F8A38E8959DC94D06C704745F0D04CCF8030_AdjustorThunk },
+	{ 0x0600005A, Version_get_minor_mDBF097419DFB01374A4A00E03EB015FC54FBD406_AdjustorThunk },
+	{ 0x0600005B, Version_set_minor_m52F982A4EB226448A7E078B7D746924A58C38A52_AdjustorThunk },
+	{ 0x0600005C, Version_get_patch_m0E93A4BF469BC3DD2832137183033616CC5B0016_AdjustorThunk },
+	{ 0x0600005D, Version_set_patch_mEAB41C9453882FA9105E980B529A47FC94C78C7D_AdjustorThunk },
+	{ 0x0600005E, Version__ctor_m07FB3BF9D5FEB664B5E52F89D5872600D49E19E7_AdjustorThunk },
+	{ 0x0600005F, Version_ToString_m495D7CD31F687F4FE5AAE6C84199E54A091357EC_AdjustorThunk },
+	{ 0x06000061, Version_Equals_mD6D649A817D006544C0CF0D89346CBE642066815_AdjustorThunk },
+	{ 0x06000062, Version_Equals_m5EEA2BE76FDCB1997D1F4BEC19E53B3F04769541_AdjustorThunk },
+	{ 0x06000063, Version_GetHashCode_mBF326EA3542A8A2B63AF77E2E9D6F4C161C3D3DC_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[182] = 
+{
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	6216,
+	6333,
+	4054,
+	3344,
+	4054,
+	4054,
+	3344,
+	4087,
+	4087,
+	4087,
+	4087,
+	4140,
+	4140,
+	894,
+	894,
+	1617,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	6455,
+	4087,
+	3371,
+	4054,
+	3344,
+	3344,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4140,
+	4054,
+	3344,
+	4021,
+	3314,
+	4021,
+	3978,
+	3269,
+	4087,
+	3371,
+	4021,
+	3314,
+	4021,
+	3314,
+	4054,
+	3344,
+	4140,
+	4140,
+	0,
+	0,
+	0,
+	0,
+	0,
+	3344,
+	3236,
+	4140,
+	4087,
+	3371,
+	4087,
+	3371,
+	4087,
+	3371,
+	968,
+	4054,
+	6233,
+	2791,
+	2872,
+	4021,
+	5647,
+	5647,
+	5647,
+	5647,
+	5647,
+	5647,
+	4140,
+	6455,
+	6223,
+	6223,
+	4140,
+	4140,
+	4140,
+	4140,
+	1779,
+	4140,
+	1182,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	3344,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4054,
+	3344,
+	4021,
+	4140,
+	4140,
+	4134,
+	4134,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4140,
+	4087,
+	4087,
+	3344,
+	4054,
+	4140,
+	4054,
+	3344,
+	4054,
+	4140,
+	4140,
+	4140,
+	4021,
+	3997,
+	3997,
+	4054,
+	4087,
+	4021,
+	4021,
+	4087,
+	4140,
+	4021,
+	4054,
+	4140,
+	3314,
+	4140,
+	4087,
+	4054,
+	4140,
+	4054,
+	3314,
+	4140,
+	4087,
+	4054,
+	4140,
+	4054,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	182,
+	s_methodPointers,
+	11,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
